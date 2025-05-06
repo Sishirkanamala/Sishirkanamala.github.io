@@ -1,9 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>final project sishir </title>
+    <title>Welcome to home page for Information on global warming</title>
+    <meta name="Author" content="Sishir Kanamala">
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
-<body>
-    <p>hello world</p>
+
+<body class = "colored-section">
+    <h1>Introduction to Global warming</h1>  
+    
+    <hr>
+    <h1>Links to other pages on global warming</h1>
+    <nav class="navbar">
+        <label for="page-select" class="visually-hidden">Go to:</label>
+        <select id="page-select" onchange="if (this.value) window.location.href = this.value;">
+          <option value="" disabled selected>Select a page</option>
+
+          <option value="effects.html">Effects of global warming</option>
+          <option value="causes.html">Causes of global warming</option>
+          <option value="solutions.html">Solutions to global warming</option>
+          <option value="difference.html">how a person can make a difference in global warming</option>
+        </select>
+      </nav>
+    <hr>
+
+    <main>
+    <h1>Overview of what global warming is and why we should care.</h1>
+    <p> Global warming is the rise in global temperatures due mainly to the increasing concentrations of greenhouse gases in the atmosphere. 
+        The earth is getting too hot to live on since Between 1850—the year that accurate recordkeeping began—and 1980, it rose on average by 0.07 degrees Celsius (0.13 degrees Fahrenheit) every 10 years. Since 1981, however, the rate of increase has more than doubled.
+       Global warming is important to care about since if it gets to hot not only will the earth be inhabitable but other wildlife will suffer and be in danger like plants and crops along with animals we as humans use those as our resources. </p>
+    <h1>Goal of this webpage</h1>
+    <p>
+        The goal of this webpage is to inform people about Global warming and how it affects Our planet in every aspect,
+        the various problems of climate change, such as rising global temperatures, extreme natural
+        disasters and how it negatively affects the eco system. This site will educate the public on ways to
+        reduce their carbon footprint and contribute to combating climate change. This webpage is made to highlight global warming and address the cause,effects,solutions and what an individual can do to help positivley impact global warming.
+    </p>
+    <h1>Difference between global warming and climate change</h1>
+    <p>Global warming is the rise in global temperatures due mainly to the increasing concentrations of greenhouse gases in the atmosphere.Climate change is the increasing changes in the measures of climate over a long period of time. 
+        The connection is Global warming is a factor of climate change so global warming changes climates over the planets.
+    </p>
+    <h1>How climate change and global warming are related</h1>
+    <p>Global warming and climate change are related because global warming is a primary driver of climate change. Global warming, the increase in Earth's average surface temperature, is caused by the accumulation of greenhouse gases in the atmosphere, primarily due to human activities like burning fossil fuels. This increased temperature then leads to a broader range of changes in the Earth's climate system, including shifts in weather patterns, rising sea levels, and melting glaciers, which are all aspects of climate change. </p>
+
+    <h1>Case study on global warming</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pUqmhipWvzA?si=dffHzJD8E1t1Zgwi"  title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Global warming over the years</h1>
+    <img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/woc/images/globaltemp/global_gis_2022_chart.png" alt="picture"> 
+    </main>
+    
+    <hr>
+    <footer>
+        <h1>Links to additonal information and the sources and refrences</h1>
+        <p>Global warming 101: <a href="https://www.nrdc.org/stories/global-warming-101"> global-warming-101</a></p>
+        <p>Difference between global warming and climate change:<a href="https://www.usgs.gov/faqs/what-difference-between-global-warming-and-climate-change"> what-difference-between-global-warming-and-climate-change</a> </p>
+        <p>Climate change: <a href="https://science.nasa.gov/climate-change/"> information on climate change</a></p>
+    </footer>
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">Top</button>
+
+
+    <script src="script.js" defer></script>
+
+
 </body>
+
 </html>
